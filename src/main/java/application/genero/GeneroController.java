@@ -1,4 +1,4 @@
-package application.controller;
+package application.genero;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import application.genero.record.GeneroDTO;
-import application.genero.record.GeneroInsertDTO;
-import application.genero.service.GeneroService;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController

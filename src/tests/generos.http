@@ -1,0 +1,22 @@
+@url = https://musical-invention-jxprjp6xvg5hrj-8080.app.github.dev/generos
+
+GET {{url}}/1
+
+###
+POST {{url}}
+Content-Type: application/json
+
+{
+    "nome": "Terror"
+}
+
+###
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+    "nome": "Terror"
+}
+
+###
+DELETE {{url}}/2

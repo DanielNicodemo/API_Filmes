@@ -1,8 +1,6 @@
-package application.genero.repository;
+package application.genero;
 
 import org.springframework.data.jpa.repository.JpaRepository;
- 
-import application.genero.Genero;
 
 public interface GeneroRepository extends JpaRepository<Genero, Long> {
  

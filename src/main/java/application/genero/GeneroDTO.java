@@ -1,6 +1,4 @@
-package application.genero.record;
-
-import application.genero.Genero;
+package application.genero;
 
 public record GeneroDTO(long id, String nome) {
     public GeneroDTO(Genero dados) {

@@ -1,5 +1,4 @@
-package application.genero.record;
+package application.genero;
 
 public record GeneroInsertDTO(String nome) {
-    
 }

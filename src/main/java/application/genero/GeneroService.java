@@ -1,4 +1,4 @@
-package application.genero.service;
+package application.genero;
 
 import java.util.Optional;
 
@@ -8,11 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.server.ResponseStatusException;
 
-import application.genero.Genero;
-import application.genero.record.GeneroDTO;
-import application.genero.record.GeneroInsertDTO;
-import application.genero.repository.GeneroRepository;
-import application.genero.service.GeneroService;
+import application.genero.GeneroService;
 
 @Service
 public class GeneroService {
